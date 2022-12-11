@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E08E95728BC92A500AF96C0 /* NavBarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E08E95628BC92A500AF96C0 /* NavBarHeaderView.swift */; };
+		2E08E95928BC94C100AF96C0 /* TitleHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E08E95828BC94C100AF96C0 /* TitleHeaderReusableView.swift */; };
 		2E599F5F28B74666003F90A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E599F5E28B74666003F90A1 /* AppDelegate.swift */; };
 		2E599F6128B74666003F90A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E599F6028B74666003F90A1 /* SceneDelegate.swift */; };
 		2E599F6328B74666003F90A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E599F6228B74666003F90A1 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		2E599F7628B74668003F90A1 /* Pinnable_HeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E599F7528B74668003F90A1 /* Pinnable_HeaderTests.swift */; };
 		2E599F8028B74668003F90A1 /* Pinnable_HeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E599F7F28B74668003F90A1 /* Pinnable_HeaderUITests.swift */; };
 		2E599F8228B74668003F90A1 /* Pinnable_HeaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E599F8128B74668003F90A1 /* Pinnable_HeaderUITestsLaunchTests.swift */; };
+		2EF36B7128B755E900590B07 /* HeaderCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF36B7028B755E900590B07 /* HeaderCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E08E95628BC92A500AF96C0 /* NavBarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarHeaderView.swift; sourceTree = "<group>"; };
+		2E08E95828BC94C100AF96C0 /* TitleHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHeaderReusableView.swift; sourceTree = "<group>"; };
 		2E599F5B28B74666003F90A1 /* Pinnable Header.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pinnable Header.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E599F5E28B74666003F90A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E599F6028B74666003F90A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		2E599F7B28B74668003F90A1 /* Pinnable HeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pinnable HeaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E599F7F28B74668003F90A1 /* Pinnable_HeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinnable_HeaderUITests.swift; sourceTree = "<group>"; };
 		2E599F8128B74668003F90A1 /* Pinnable_HeaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinnable_HeaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2EF36B7028B755E900590B07 /* HeaderCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				2E599F5E28B74666003F90A1 /* AppDelegate.swift */,
 				2E599F6028B74666003F90A1 /* SceneDelegate.swift */,
 				2E599F6228B74666003F90A1 /* ViewController.swift */,
+				2E08E95628BC92A500AF96C0 /* NavBarHeaderView.swift */,
+				2E08E95828BC94C100AF96C0 /* TitleHeaderReusableView.swift */,
+				2EF36B7028B755E900590B07 /* HeaderCollectionCell.swift */,
 				2E599F6428B74666003F90A1 /* Main.storyboard */,
 				2E599F6728B74668003F90A1 /* Assets.xcassets */,
 				2E599F6928B74668003F90A1 /* LaunchScreen.storyboard */,
@@ -260,7 +269,10 @@
 			files = (
 				2E599F6328B74666003F90A1 /* ViewController.swift in Sources */,
 				2E599F5F28B74666003F90A1 /* AppDelegate.swift in Sources */,
+				2E08E95928BC94C100AF96C0 /* TitleHeaderReusableView.swift in Sources */,
+				2EF36B7128B755E900590B07 /* HeaderCollectionCell.swift in Sources */,
 				2E599F6128B74666003F90A1 /* SceneDelegate.swift in Sources */,
+				2E08E95728BC92A500AF96C0 /* NavBarHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +454,6 @@
 				INFOPLIST_FILE = "Pinnable Header/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +481,6 @@
 				INFOPLIST_FILE = "Pinnable Header/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
